@@ -1,0 +1,20 @@
+.begin__title {
+    max-width: 101.7rem;
+    color: var(--clr-white);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.4rem;
+    line-height: 1;
+    margin: 0;
+    padding-bottom: 4.0rem;
+    padding-top: 4.0rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    .begin__title {
+      max-width: 28.8rem;
+      font-size: 3.2rem;
+      line-height: 1;
+      padding-bottom: 4.0rem;
+    }
+  }

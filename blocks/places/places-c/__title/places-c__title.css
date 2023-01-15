@@ -1,0 +1,37 @@
+.places-c__title {
+    max-width: 48rem;
+    color: var(--clr-white);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 7.2rem;
+    line-height: 1;
+    grid-area: title;
+    margin: 0;
+    transition: var(--transition);
+  }
+
+  .places-c__title:hover {
+    opacity: 0.6;
+    letter-spacing: .1rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .places-c__title {
+      font-size: 4.2rem;
+      line-height: 1;
+    }
+  }
+  
+  @media screen and (max-width: 643px) {
+    .places-c__title {
+      margin: 0 1.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .places-c__title {
+      max-width: 28.8rem;
+      font-size: 3.2rem;
+      line-height: 1;
+    }
+  }

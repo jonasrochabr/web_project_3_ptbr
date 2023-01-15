@@ -1,0 +1,27 @@
+.places-c__paragraph {
+    margin: 0 0 2.5rem 0;
+  }
+
+  @media screen and (max-width: 746px) {
+    .places-c__paragraph {
+      max-width: 45.0rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .places-c__paragraph {
+      max-width: 34.0rem;
+    }
+  }
+  
+  @media screen and (max-width: 643px) {
+    .places-c__paragraph {
+      max-width: 57.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .places-c__paragraph:last-child {
+      margin: 0;
+    }
+  }

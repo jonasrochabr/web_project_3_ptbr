@@ -1,0 +1,34 @@
+.greetings__subtitle {
+    max-width: 72.0rem;
+    color: var(--clr-white);
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.0rem;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .greetings__subtitle {
+      margin-bottom: 3.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .greetings__subtitle {
+      font-size: 2.3rem;
+      line-height: 1.7;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .greetings__subtitle {
+      max-width: 28.8rem;
+      font-size: 1.6rem;
+      line-height: 1.2;
+      margin-top: 1.6rem;
+      margin-bottom: 4.0rem;
+    }
+  }

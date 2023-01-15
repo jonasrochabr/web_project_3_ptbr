@@ -1,0 +1,28 @@
+.begin {
+    display: flex;
+    flex-direction: column;
+    max-width: 101.7rem;
+    margin: 0 auto;
+    padding-top: 9.2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .begin {
+      max-width: 72.0rem;
+      margin: auto;
+    }
+  }
+  
+  @media screen and (max-width: 643px) {
+    .begin {
+      max-width: 57.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .begin {
+      padding-top: 6.4rem;
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+    }
+  }

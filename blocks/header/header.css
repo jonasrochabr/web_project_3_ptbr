@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    margin: 0 auto;
+    width: 27rem;
+    padding-bottom: 9.0rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    .header {
+      max-width: 20.0rem;
+      height: 5.1rem;
+    }
+  }

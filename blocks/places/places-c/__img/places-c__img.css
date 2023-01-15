@@ -1,0 +1,39 @@
+.places-c__img {
+    width: 100%;
+    max-height: 46.0rem;
+    margin: auto;
+    grid-area: img;
+    transition: var(--transition);
+  }
+
+  @media screen and (max-width: 768px) {
+    .places-c__img {
+      max-width: 34.0rem;
+      max-height: 34.0rem;
+    }
+  }
+  
+  @media screen and (max-width: 643px) {
+    .places-c__img {
+      max-width: 54.5rem;
+      max-height: 54.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 505px) {
+    .places-c__img {
+      max-width: 37.5rem;
+      max-height: 37.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .places-c__img {
+      max-width: 32.0rem;
+      max-height: 32.0rem;
+    }
+  }
+
+  .places-c__img:hover {
+    opacity: 0.6;
+  }

@@ -1,0 +1,42 @@
+.greetings__title {
+    max-width: 79.3rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 9.6rem;
+    line-height: 1;
+    margin: 0 auto;
+    color: var(--clr-white);
+    transition: var(--transition);
+  }
+
+  .greetings__title:hover {
+    opacity: 0.6;
+  }
+
+  @media screen and (max-width: 768px) {
+    .greetings__title {
+      max-width: 72.0rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .greetings__title {
+      font-size: 8.0rem;
+      line-height: 1;
+    }
+  }
+  
+  @media screen and (max-width: 460px) {
+    .greetings__title {
+      font-size: 6.0rem;
+      line-height: 1;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .greetings__title {
+      max-width: 28.8rem;
+      font-size: 4.0rem;
+      line-height: 1;
+    }
+  }

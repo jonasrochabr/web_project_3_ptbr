@@ -1,0 +1,21 @@
+.places-c__artist {
+    max-width: 48.4rem;
+    color: var(--clr-tinygrey);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    grid-area: artist;
+  }
+
+  @media screen and (max-width: 643px) {
+    .places-c__artist {
+      margin: 0 1.6rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .places-c__artist {
+      max-width: 28.8rem;
+    }
+  }

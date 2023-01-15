@@ -1,0 +1,14 @@
+.places-c__subtitle {
+    max-width: 456px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-decoration: none;
+    transition: var(--transition);
+  }
+
+  .places-c__subtitle:hover {
+    opacity: 0.6;
+  }

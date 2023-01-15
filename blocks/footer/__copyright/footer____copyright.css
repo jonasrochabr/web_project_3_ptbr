@@ -1,0 +1,30 @@
+.footer__copyright {
+    font-style: normal;
+    color: var(--clr-white);
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.1;
+    padding-top: 9.2rem;
+    padding-bottom: 2.4rem;
+    margin: 0 auto;
+    transition: var(--transition);
+  }
+
+  .footer__copyright:hover {
+    opacity: 0.6;
+    letter-spacing: .1rem;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer__copyright {
+      padding-top: 8.8rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .footer__copyright {
+      line-height: 1;
+      padding-top: 6.4rem;
+    }
+  }
