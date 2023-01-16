@@ -22,7 +22,7 @@
     opacity: .7;
   }
   
-  @media (max-width: 320px) and (max-width: 768px) {
+  @media and (max-width: 768px) {
       .galery-item::before {
         opacity: 0;
       }
